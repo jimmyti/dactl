@@ -5,7 +5,7 @@
 .post-title-container {
     width: 100%;
     margin-bottom: 6rem;
-    height: 20rem;
+    height: 10rem;
 
     text-align: center;
     position: relative;
@@ -32,13 +32,13 @@
 //  Post meta under post title
 .post-meta {
   font-weight: $base-font-weight;
-  font-size: 22px;
+  // font-size: 22px;
   color: var(--text-color-light);
 
   span {
     display: inline-block;
     margin-top: 0.5rem;
-    font-size: 0.85em;
+    // font-size: 0.85em;
 
     a {
       color: var(--text-color-light);
@@ -77,10 +77,10 @@
 }
 
 .post-meta-nohero {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   color: var(--text-color-light);
   font-weight: $base-font-weight;
-  font-size: 0.75em;
+  // font-size: 0.75em;
 
   a {
     color: var(--text-color-light);
@@ -98,7 +98,12 @@
 }
 
 @media (max-width: 48rem) {
-    .post-title-container-nohero h1 {
-      font-size: 2rem;
+    .post-title-container-nohero {
+      margin-bottom: 2rem;
+
+      h1 {
+        font-size: 2rem;
+        line-height: 1.5;
       }
     }
+  }

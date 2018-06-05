@@ -7,12 +7,12 @@ header {
 }
 
 .logo {
-    font-size: 3.5rem;
+    font-size: $post-title-size;
     font-weight: $base-font-weight-bold;
     color: var(--link-color);
 
     .logosvg {
-    	  height: 2.7rem;
+    	  height: 2rem;
         -webkit-filter: var(--invert-logo-color);
     }
 }
@@ -83,11 +83,11 @@ header {
     }
     // fake it till you make it
     .logo {
-      margin-top: 5rem;
+      // margin-top: 5rem;
       .logosvg {
         display: block;
-        margin: -9rem auto 5rem auto;
-        height: 3rem;
+        margin: 1rem auto 1rem auto;
+        height: 2.5rem;
       }
     }
 }

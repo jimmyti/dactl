@@ -6,6 +6,10 @@ footer {
     color: var(--text-color-light);
     text-align: center;
     line-height: $base-line-height;
+
+    p {
+        margin: 0.5em;
+    }
 }
 
 #disqus_thread {

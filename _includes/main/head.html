@@ -43,12 +43,12 @@
 
 {% if site.blog.load_google_fonts %}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ site.blog.load_google_fonts }}">
-<style>
-    html {
-      font-family: {{ site.blog.font }};
-    }
-</style>
 {% endif %}
+<style>
+  html {
+    font-family: {{ site.blog.font }};
+  }
+</style>
 
 {% if site.blog.inline_footnotes == true %}
 <link rel="stylesheet" href="{{ "assets/css/bf.css" | relative_url }}">
